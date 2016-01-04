@@ -4,8 +4,52 @@
 =============================   **/
 /** Global
 =============================   **/
+img {
+  max-width: 100%;
+  height: auto;
+}
+.flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /** Layout
 =============================   **/
+#top {
+  background: #192438;
+}
+/** Splash
+TODO: create background image, and put the path in section#splash-image below
+=============================   **/
+#splash-image {
+  background: url(images/splash-background.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#splash-image .one {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+#splash-image .two {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+#splash-image .three {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
 /** Fonts
 =============================   **/
 /** Colors
@@ -14,8 +58,13 @@
 =============================   **/
 /** Animations
 =============================   **/
-/** Responsive
+/** Responsive (mobile first)
 =============================   **/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
 /** Footer
 =============================   **/
 /* Sticky footer styles

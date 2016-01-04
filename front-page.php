@@ -1,11 +1,7 @@
 <?php get_header(); ?>
-
-<section id="splash">
-  <div class="container">
-    <div class="row-fluid">Splash Image or Slider</div>
-  </div><!--/container-->
-</section><!--/splash-->
-
+<!-- splash, either partials/splash-image.php for background image, or partials/splash-carousel.php for carousel. -->
+      <?php get_template_part('partials/splash-image'); ?>
+<!--/ splash -->
 <section id="main-content">
   <div class="container">
     <div class="row">

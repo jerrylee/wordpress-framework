@@ -16,3 +16,14 @@
   </head>
   <body>
     <div id="wrap"><!-- begins sticky footer (ends in footer.php) -->
+<section id="top">
+  <div class="container">
+    <div class="row clearfix">
+      <div class="col-sm-3">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Client Logo" />
+        <!--TODO:upload logo and put path -->
+      </div><!--/col-sm-3 -->
+      <div class="col-sm-9">PHONE</div><!--/col-sm-9 -->
+    </div><!--/row -->
+  </div><!--/container-->
+</section><!--/top -->
